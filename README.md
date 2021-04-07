@@ -1,6 +1,6 @@
 # Rest API Authentication Server
 
-##### It is a login and registration server that works with libraries
+### It is a login and registration server that works with libraries
 - Express
 - MongoDB
 - EJS
