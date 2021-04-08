@@ -26,14 +26,13 @@ const PORT = config.get('PORT') || 3000;
 
 async function startApp() {
   try {
-
     await mongoose.connect(config.get('mongoUri'), {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true
     });
 
-    app.listen(PORT, () => console.log(colors.bgGreen.black(`Server is running on port ${PORT}...`)));
+    app.listen(PORT, () => console.log(colors.bgGreen.black(`App has been started on port ${PORT}...`)));
 
   } catch (e) {
     console.log(colors.bgRed.black(`Server error: ${e.message}`));
