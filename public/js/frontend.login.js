@@ -9,9 +9,9 @@ form.addEventListener('submit', e => {
       console.log(data);
 
       if (data.errors) {
-        alert(data.errors['0'].msg);
+        M.toast({html: data.errors['0'].msg});
       } else {
-        alert(data.message);
+        M.toast({html: data.message});
       }
 
     });
