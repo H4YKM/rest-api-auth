@@ -1,4 +1,4 @@
 {
-  "PORT": 3000,
+  "PORT": 80,
   "mongoUri": "mongodb+srv://admin:admin@cluster0.d8hws.mongodb.net/rest-api-auth?retryWrites=true&w=majority"
 }
